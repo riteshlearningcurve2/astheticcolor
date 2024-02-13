@@ -1,0 +1,327 @@
+:root
+{
+    --primrary_color : #140e12;
+    --secondary_color: #08d493;
+    --white_color: #ffffff;
+}
+
+html
+{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+body
+{   position: relative;
+    box-sizing: border-box;
+    
+}
+main {
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.logo img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 40%;
+    margin: -75px;
+    position: absolute;
+    left: 53%;
+    
+    
+    
+}
+
+.content ul
+{
+    list-style: none;
+    text-decoration: none;
+    gap: 40px;
+    font-size:25px;
+    display: flex;
+}
+.content ul li a
+{
+    list-style: none;
+    text-decoration: none;
+    color: var(--primrary_color);
+    gap: 40px;
+    font-size:25px;
+    display: flex;
+    
+}
+
+
+.navbar_content
+{   height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#btn_take
+{
+    margin: 10px 10px 20px 2px;
+    background-color: peachpuff;
+    border-radius: 4px;
+    height: 40px;
+
+}
+
+#btn_take:hover{
+    background-color: silver;
+}
+
+.list_section li a:hover
+{
+    text-decoration: underline;
+    font-weight: 600;
+    color: palevioletred;
+    
+
+}
+
+.heading{
+    margin: 100px 250px 250px 250px;
+    display: grid;
+    text-align: center;
+    
+ }
+
+.description
+{
+    margin-top: 40px;
+}
+
+.description p, .five_color p
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ten_color p
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span
+{
+    color: blue;
+}
+
+.pininterset_img
+{   margin-top: 40px;
+    margin-bottom: 40px;
+    overflow:hidden;
+
+}
+
+.five_color h3,p
+{
+    margin-top: 40px;
+    margin-left: 18px;
+    text-align: left;
+}
+.ten_color h3,p
+{
+    margin-top: 40px;
+    margin-left: 18px;
+    text-align: left;
+}
+
+.color_desc li
+{
+
+    margin-left: 120px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;  
+}
+
+.ten_color img{
+    margin:20px;
+}
+
+.uparrow
+{   margin-top: 120px;
+    margin-left: 120%;
+}
+
+.footer_lines
+{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+
+
+
+@media only screen and (max-width:900px){
+
+    .logo img
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 40%;
+    
+    position:absolute;
+    left: 60%
+    
+    
+    
+}
+
+.content ul
+{
+    list-style: none;
+    text-decoration: none;
+    gap: 8px;
+    font-size:8px;
+    display: flex;
+}
+.content ul li a
+{
+    list-style: none;
+    text-decoration: none;
+    color: var(--primrary_color);
+    font-size:30px;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+
+
+#btn_take
+{
+font-size:20px;
+height: 30px;
+display: flex;
+justify-content: center;
+margin-right: 30px
+
+}
+
+.heading{
+    margin: 50px;
+    display: inline;
+    text-align: center;
+
+
+}
+
+main img{
+   width: 300px;
+   height: 3x00px;
+   margin-left: 30%;
+
+}
+
+main ul li{
+    
+    text-wrap: auto;
+    margin-left:50%;
+ 
+ }
+
+ main p{
+    width: auto;
+    
+ }
+
+ main div{
+    text-align: left;
+ }
+
+
+
+}
+
+@media only screen and (max-width:300px){
+
+    .logo img
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 40%;
+    
+    position: absolute;
+    left: 50%
+    
+    
+    
+}
+
+.content ul
+{
+    list-style: none;
+    text-decoration: none;
+    gap: 8px;
+    font-size:8px;
+    display: flex;
+}
+.content ul li a
+{
+    list-style: none;
+    text-decoration: none;
+    color: var(--primrary_color);
+    font-size:8px;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+
+
+#btn_take
+{
+font-size:4px;
+height: 10px;
+display: flex;
+justify-content: center;
+margin-right: auto;
+gap: 4px;
+margin-top: 3px;
+}
+
+.heading{
+    margin: 50px;
+    display: inline;
+    text-align: center;
+
+
+}
+
+main img{
+   width: 100px;
+   height: 100px;
+   margin-left: 30%;
+
+}
+
+main ul li{
+    
+    text-wrap: auto;
+    margin-left:50%;
+ 
+ }
+
+ main p{
+    width: auto;
+    
+ }
+
+ main div{
+    text-align: left;
+ }
+
+
+
+}
